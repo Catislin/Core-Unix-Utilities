@@ -98,11 +98,17 @@ Challenges within each section are meant to be solved in order.
 1.  Copy the file `Cats.txt` to `Kittens.txt` inside `Shelter`
   - `echo Cats.txt >> Shelter/Kittens.txt`
 1.  List the files within the directory `Shelter`
+  - `ls Shelter`
 1.  Count the words in all `.txt` files inside `Shelter`
+  - `wc Shelter/*.txt`
 1.  Try to remove the directory `Shelter` (this should fail)
+  - `rm Shelter`
 1.  Remove all `.txt` files inside `Shelter`
+  - `rm Shelter/*.txt`
 1.  Remove the directory `Shelter` (this should succeed)
+  - `rm -rf Shelter/`
 1.  Now cry because you just deleted those poor tiny animals
+  -  ;(
 
 ### Permissions
 
