@@ -79,44 +79,49 @@ Challenges within each section are meant to be solved in order.
 
 1.  Navigate to the directory `Animals`
   - `cd Animals`
-1.  Print the contents of the file `Cats.txt`
+2.  Print the contents of the file `Cats.txt`
   - `cat Cats.txt`
-1.  Print the contents of both files `Cats.txt` and `Dogs.txt`
+3.  Print the contents of both files `Cats.txt` and `Dogs.txt`
   - `cat Cats.txt Dogs.txt`
-1.  Count the words in the file `Cats.txt`
+4.  Count the words in the file `Cats.txt`
   - `wc Cats.txt`
-1.  Count the words in all files with the extension `.txt`
+5.  Count the words in all files with the extension `.txt`
   - `wc *.txt`
-1.  Copy the file `Dogs.txt` to a new file `BabyDogs.txt`
+6.  Copy the file `Dogs.txt` to a new file `BabyDogs.txt`
   - `cat Dogs.txt >> BabyDogs.txt`
-1.  Rename the file `BabyDogs.txt` to `Puppies.txt`
+7.  Rename the file `BabyDogs.txt` to `Puppies.txt`
   - `mv BabyDogs.txt Puppies.txt`
-1.  Make a new directory named `Shelter` inside `Animals`
+8.  Make a new directory named `Shelter` inside `Animals`
   - `mkdir Shelter`
-1.  Move the file `Puppies.txt` into the directory `Shelter`
+9.  Move the file `Puppies.txt` into the directory `Shelter`
   - `mv Puppies.txt Shelter`
-1.  Copy the file `Cats.txt` to `Kittens.txt` inside `Shelter`
+10.  Copy the file `Cats.txt` to `Kittens.txt` inside `Shelter`
   - `echo Cats.txt >> Shelter/Kittens.txt`
-1.  List the files within the directory `Shelter`
+11.  List the files within the directory `Shelter`
   - `ls Shelter`
-1.  Count the words in all `.txt` files inside `Shelter`
+12.  Count the words in all `.txt` files inside `Shelter`
   - `wc Shelter/*.txt`
-1.  Try to remove the directory `Shelter` (this should fail)
+13.  Try to remove the directory `Shelter` (this should fail)
   - `rm Shelter`
-1.  Remove all `.txt` files inside `Shelter`
+14.  Remove all `.txt` files inside `Shelter`
   - `rm Shelter/*.txt`
-1.  Remove the directory `Shelter` (this should succeed)
+15.  Remove the directory `Shelter` (this should succeed)
   - `rm -rf Shelter/`
-1.  Now cry because you just deleted those poor tiny animals
+16.  Now cry because you just deleted those poor tiny animals
   -  ;(
 
 ### Permissions
 
 1.  Print out your user name
+  - `echo $USER`
 1.  List the permissions (and metadata) of all `.txt` files
+  - `stat *.txt`
 1.  Give all users write permission on the file `Cats.txt`
+  - `chmod a+w Cats.txt`
 1.  List the permissions (and metadata) of the file `Cats.txt`
+  - `stat Cats.txt`
 1.  Change the owner of the file `Cats.txt` to another user
+  -
 1.  Now list the permissions (and owner) of the file `Cats.txt`
 1.  Try to change the owner of the file `Cats.txt` back to yourself
 1.  Invoke the super-user to make the previous command succeed
