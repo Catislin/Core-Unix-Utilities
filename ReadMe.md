@@ -69,18 +69,28 @@ Challenges within each section are meant to be solved in order.
 ### Getting Help
 
 1.  Print what options a command accepts, like `bash` or `python`
+  - `man python`
 1.  Read the manual for a command, like `echo` or `ls`
+  - `man echo`
 1.  Print the file path to a command, like `bash` or `python`
+  - `which bash`
 
 ### Files
 
 1.  Navigate to the directory `Animals`
+  - `cd Animals`
 1.  Print the contents of the file `Cats.txt`
+  - `cat Cats.txt`
 1.  Print the contents of both files `Cats.txt` and `Dogs.txt`
+  - `cat Cats.txt Dogs.txt`
 1.  Count the words in the file `Cats.txt`
+  - `wc Cats.txt`
 1.  Count the words in all files with the extension `.txt`
+  - `wc *.txt`
 1.  Copy the file `Dogs.txt` to a new file `BabyDogs.txt`
+  - `cat Dogs.txt >> BabyDogs.txt`
 1.  Rename the file `BabyDogs.txt` to `Puppies.txt`
+  - `mv BabyDogs.txt Puppies.txt`
 1.  Make a new directory named `Shelter` inside `Animals`
 1.  Move the file `Puppies.txt` into the directory `Shelter`
 1.  Copy the file `Cats.txt` to `Kittens.txt` inside `Shelter`
