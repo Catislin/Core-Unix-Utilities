@@ -69,7 +69,7 @@ Challenges within each section are meant to be solved in order.
 ### Getting Help
 
 1.  Print what options a command accepts, like `bash` or `python`
-  - `man python`
+  - `python -h`
 1.  Read the manual for a command, like `echo` or `ls`
   - `man echo`
 1.  Print the file path to a command, like `bash` or `python`
@@ -121,8 +121,12 @@ Challenges within each section are meant to be solved in order.
 1.  List the permissions (and metadata) of the file `Cats.txt`
   - `stat Cats.txt`
 1.  Change the owner of the file `Cats.txt` to another user
-  -
+  - `sudo chown temp Cats.txt`
 1.  Now list the permissions (and owner) of the file `Cats.txt`
+  - `stat Cats.txt`
 1.  Try to change the owner of the file `Cats.txt` back to yourself
+  - `chown alirie Cats.txt`
 1.  Invoke the super-user to make the previous command succeed
+  - `sudo chown alirie Cats.txt`
 1.  List the permissions (and owner) of the file `Cats.txt` again
+  - `stat Cats.txt`
