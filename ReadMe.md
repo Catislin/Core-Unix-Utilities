@@ -46,15 +46,23 @@ Challenges within each section are meant to be solved in order.
 1.  Navigate to your home directory
   - `cd`
 1.  Navigate back to the previous directory
-
+  - `cd -`
 ### Variables
 
 1.  Print a sentence, like `Hello world`
+  - `echo "Hello world"`
 1.  Print a variable value, like `$USER` or `$PATH`
+  - `echo $PATH`
 1.  Set a variable `NAME` equal to your first name, then print its value
+  - `NAME=alirie`
 1.  Set a variable `FULL_NAME` equal to your full name, then print its value
+  - `FULL_NAME="alirie gray"`
 1.  Print all environment variables (names and values)
+  - `printenv`
 1.  Make an alias named `hello` that prints `Hello world`
+  - `cd`
+  - `nano .bash_profile`
+  - `alias hello='echo "hello world"'`
 1.  Make an alias named `gocode` that navigates to your code directory
 1.  Print all aliases (names and values)
 
