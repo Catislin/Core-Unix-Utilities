@@ -60,11 +60,11 @@ Challenges within each section are meant to be solved in order.
 1.  Print all environment variables (names and values)
   - `printenv`
 1.  Make an alias named `hello` that prints `Hello world`
-  - `cd`
-  - `nano .bash_profile`
   - `alias hello='echo "hello world"'`
 1.  Make an alias named `gocode` that navigates to your code directory
+  - `alias gocode='cd /Users/alirie/Documents/make'`
 1.  Print all aliases (names and values)
+  - `alias`
 
 ### Getting Help
 
